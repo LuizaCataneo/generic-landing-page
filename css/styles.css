@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 4rem 0;
+  border-top: 1px solid #ccc;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+}
+
+#header-content {
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#logo {
+  height: 30px;
+}
+
+#external-links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+main {
+  display: flex;
+  padding: 6rem 0;
+}
+
+#call-to-action {
+  width: 50%;
+  padding-right: 3rem;
+}
+
+#call-to-action h1,
+#call-to-action p {
+  padding-bottom: 1.5rem;
+}
+
+#call-to-action button {
+  border: none;
+  height: 50px;
+  width: 250px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 3s;
+}
+
+#call-to-action button:hover {
+  background-color: #44444494;
+}
+
+aside {
+  background-color: #f0f0f0;
+  width: 50%;
+}
+
+#carousel {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.box {
+  flex: 1;
+  background-color: #f0f0f0;
+  height: 150px;
+  cursor: pointer;
+  transition: 3s;
+}
+
+#left-btn,
+#right-btn {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border: 1px solid #444;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+
+#left-btn:hover,
+#right-btn:hover {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+}
+
+.box:hover {
+  background-color: #44444494;
+}
+
+#features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.feature {
+  width: 30%;
+}
+
+.feature h3 {
+  padding-bottom: 0.5rem;
+}
+
+span {
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #444;
+  border-radius: 50%;
+}
+
+#about-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#profile {
+  display: flex;
+  width: 50%;
+}
+
+.img-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.quote-content {
+  padding-left: 20px;
+  width: 50%;
+}
+
+.quote-content blockquote {
+  padding-bottom: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #444;
+  color: #ccc;
+}
